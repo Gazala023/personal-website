@@ -4,8 +4,159 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <h1>Hello World</h1>
+    <!-- Navbar -->
+    <div class="navbar">
+      <a class="navbar-link">Works</a>
+      <a class="navbar-link">Blog</a>
+      <a class="navbar-link">Content</a>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-info">
+        <h1 class="hero-title">
+          Hi, I am Syuhada Hikmawan, Creative Technologist
+        </h1>
+        <p class="hero-description">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+        <button class="hero-btn-resume">Download Resume</button>
+      </div>
+      <div class="hero-profile">
+        <img src="./img/Mishary.jpg" />
+      </div>
+    </div>
+
+    <!-- Works -->
+    <div class="works">
+      <h1 class="works-title">Featured Works</h1>
+      <div class="works-list">
+        <div class="works-card">
+          <div class="works-img">
+            <img src="./img/raja-kopi.png" alt="Mishary" />
+          </div>
+          <div class="works-info">
+            <h1 class="works-info-title">Raja Kopi</h1>
+            <div class="works-info-publish">
+              <div>2023</div>
+              <span>Website Landing Page</span>
+            </div>
+            <p class="works-info-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequatur hic sint quisquam magni corporis quia tempore fugit
+              dolore, amet soluta!
+            </p>
+          </div>
+        </div>
+        <div class="works-card">
+          <div class="works-img">
+            <img src="./img/raja-kopi.png" alt="Mishary" />
+          </div>
+          <div class="works-info">
+            <h1>Raja Kopi</h1>
+            <div>
+              <div>2023</div>
+              <span>Website Landing Page</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequatur hic sint quisquam magni corporis quia tempore fugit
+              dolore, amet soluta!
+            </p>
+          </div>
+        </div>
+        <div class="works-card">
+          <div class="works-img">
+            <img src="./img/raja-kopi.png" alt="Mishary" />
+          </div>
+          <div class="works-info">
+            <h1>Raja Kopi</h1>
+            <div>
+              <div>2023</div>
+              <span>Website Landing Page</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequatur hic sint quisquam magni corporis quia tempore fugit
+              dolore, amet soluta!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/syuhada_h1/" target="_blank"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-instagram"
+          >
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg
+        ></a>
+        <a href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-twitter"
+          >
+            <path
+              d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+            ></path></svg
+        ></a>
+        <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-facebook"
+          >
+            <path
+              d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+            ></path></svg
+        ></a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">syuhada hikmawan</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
   </body>
 </html>
