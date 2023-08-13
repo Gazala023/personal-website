@@ -10,7 +10,10 @@ body {
 
 .navbar {
     display: flex;
-    padding: 25px 30px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0;
     justify-content: flex-end;
     gap: 10px;
 }
@@ -21,8 +24,9 @@ body {
 
 .hero {
     display: flex;
-    padding: 0 30px;
-    margin: 100px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: 100px auto;
     justify-content: space-between;
 }
 
@@ -60,7 +64,9 @@ body {
 }
 
 .works {
-    padding: 0 30px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .works .works-title {
@@ -155,4 +161,47 @@ footer .credit {
 footer .credit a {
     color: var(--bg);
     font-weight: 700;
+}
+
+/* Media Query */
+/* laptop */
+@media (max-width: 992px) {
+    html {
+        font-size: 75%;
+    }
+
+
+}
+
+/* tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 65%;
+    }
+
+}
+
+/* mobile phone */
+@media (max-width: 576px) {
+    html {
+        font-size: 60%;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-info {
+        order: 2;
+    }
+
+    .hero-profile {
+        order: 1;
+
+    }
+
+
+
+
+
 }
